@@ -22,4 +22,5 @@ Journal.html must contain form for submitting journal entries containing:
   - name of trail
   - title of entry
   - entry data/text
+
 JavaScript includes object/method to store journal data to localStorage and render to Journal.html.
