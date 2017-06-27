@@ -24,4 +24,5 @@ var trails = [
   ['Gazzam Lake Nature Preserve', 'west', 'hard', 5, 3, 5, 'http://www.wta.org/site_images/hikes/close-beach-whitebark.jpg/@@images/2534d4fe-7ef6-4b0c-b05b-41654c2e5f48.jpeg', <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d172150.0915753973!2d-122.5637!3d47.6097!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d47.6097!2d-122.5637!5e0!3m2!1sen!2sus!4v1498579808329" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>, 'An easy route with a challenging finish, the main trail through Gazzam Lake Nature Preserve meanders through second-growth forest on Bainbridge Island, plunging down its finish at a small, scenic section of rocky beach. '],
 ];
 
-//create parent for renderTrial
+//event listener
+//render function
