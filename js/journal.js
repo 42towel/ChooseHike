@@ -15,15 +15,14 @@ function printJournal() {
   while (journal.firstChild) {
     journal.removeChild(journal.firstChild);
   }
-  for (var i=0; i < journalEntryArray.length; i++) {
+  for (var i = 0; i < journalEntryArray.length; i++) {
     renderEntry(journalEntryArray[i]);
   }
-  
+
 }
 
 submit.addEventListener('submit', function(e) {
   e.preventDefault();
-  console.log("this just happened");
   var trail = e.target.trail.value;
   var title = e.target.title.value;
   var entry = e.target.entry.value;

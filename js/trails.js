@@ -18,15 +18,15 @@ var selectionCriteria = retrieveSelectionCriteria();
 var trails = [
   {
     trail: 'Seward Park',
-  region: 'south',
-  difficulty: 'easy',
-  elevation: 2,
-  quality: 2,
-  distance: 2,
-  imgUrl: 'http://www.wta.org/site_images/hikes/seward-park_marley.jpeg/@@images/9013d4c3-61b0-4c3a-a384-5af755b530c8.jpeg',
-  map: 'map placeholder',
-  description: 'Located southeast from downtown Seattle, Seward Park resides on the Bailey Peninsula. The park is home to a variety of educational, recreational, and cultural activities. Visitors can enjoy a 2.4 mile bike and walking loop, an amphitheater, a native plant garden, an art studio, sheltered picnic areas, slightly more challenging hiking trails, a swimming beach, and more.',
-  source: 'source placeholder'
+    region: 'south',
+    difficulty: 'easy',
+    elevation: 2,
+    quality: 2,
+    distance: 2,
+    imgUrl: 'http://www.wta.org/site_images/hikes/seward-park_marley.jpeg/@@images/9013d4c3-61b0-4c3a-a384-5af755b530c8.jpeg',
+    map: 'map placeholder',
+    description: 'Located southeast from downtown Seattle, Seward Park resides on the Bailey Peninsula. The park is home to a variety of educational, recreational, and cultural activities. Visitors can enjoy a 2.4 mile bike and walking loop, an amphitheater, a native plant garden, an art studio, sheltered picnic areas, slightly more challenging hiking trails, a swimming beach, and more.',
+    source: 'source placeholder'
   },
   {
     trail: 'Lincoln Park',
@@ -51,7 +51,7 @@ var trails = [
     map: 'https://goo.gl/maps/TBv5xjqZJwk',
     description: 'The trail to Franklin Falls combines history and natural beauty along a compact and easily accessible loop. A visit to the falls makes for a particularly enjoyable half-day\'s outing for anyone who wants to explore the Snoqualmie Pass Region but isn\'t looking for a demanding mountain hike.',
     source: '60 Hikes Within 60 Miles - Seattle'
-},
+  },
   {
     trails: 'Mount Si',
     region: 'east',
@@ -73,8 +73,8 @@ var trails = [
     distance: 4,
     imgUrl: 'images/mud_mountain_dam.jpg',
     map: 'https://goo.gl/maps/ctvaYHwkmjr',
-    description: 'This one-of-a-kind trail follows the White River above Mud Mountain Dam, first on a high bluff and then right along the water, providing the unique opportunity to walk on a part-time lake bed. With year-round access, limited traffic, and a feel more like a riparian zone in eastern Washington than anything in the Cascades, this hike is unlike any other in the region.', '60 Hikes Within 60 Miles - Seattle'
-    source: 'placeholder'
+    description: 'This one-of-a-kind trail follows the White River above Mud Mountain Dam, first on a high bluff and then right along the water, providing the unique opportunity to walk on a part-time lake bed. With year-round access, limited traffic, and a feel more like a riparian zone in eastern Washington than anything in the Cascades, this hike is unlike any other in the region.',
+    source: '60 Hikes Within 60 Miles - Seattle',
   },
   {
     trail: 'Carkeek Park',
@@ -111,6 +111,7 @@ var trails = [
   }
 ];
 
+console.log(trails);
 //createOrUpdateEntries
 function retrieveSelectionCriteria() {
   var stringifiedSelectionCriteria = localStorage.getItem(key);
