@@ -1,5 +1,13 @@
 'use strict';
 
+var formParent = document.getElementById('formTrailSelector');
+
+formParent.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var region = e.target.regionForm.value;
+    var difficulty = e.target.difficultyForm.value;
+});
+
 function TrailArray('name', 'region', 'difficulty', 'elevation', 'quality', 'distance', 'imgUrl', 'mapUrl', 'description', 'source') {
 
 }
