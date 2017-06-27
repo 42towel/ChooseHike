@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var key = 'selectionCriteria';
 ///capture values
@@ -11,7 +11,7 @@ formParent.addEventListener('submit', function(e) {
   var selectionCriteria = {
     region: region,
     difficulty: difficulty
-  }
+  };
   createOrUpdateEntries(key, selectionCriteria);
   window.location.href = 'trails.html';
 });
