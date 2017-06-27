@@ -18,6 +18,7 @@ function printJournal() {
   for (var i=0; i < journalEntryArray.length; i++) {
     renderEntry(journalEntryArray[i]);
   }
+  
 }
 
 submit.addEventListener('submit', function(e) {
