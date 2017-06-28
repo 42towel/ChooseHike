@@ -2,31 +2,24 @@
 <html>
   <head>
     <title>Trail Journal</title>
-    <link href="css/journal.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Bangers|Barrio" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Spectral" rel="stylesheet">
   </head>
   <body>
     <form id="createEntry">
-      <fieldset>
-        <label>Heading:</label>
-        <input name="title" type="text" placeholder="Your title..." class="input"></input>
-        <label id="trailLabel">Trail:</label>
-        <input name="trail" type="text" class="input"></input>
-      </fieldset>
-      <fieldset>
-        <textarea name="entry" rows="8" cols="80" placeholder="Enter your journal entry here..." class="input"></textarea>
-      </fieldset>
-      <button type="submit">Create Journal Entry</button>
+      <label>Heading:</label>
+      <input name="title" type="text" placeholder="Your title..." class="input"></input>
+      <label id="trailLabel">Trail:</label>
+      <input name="trail" type="text" class="input"></input>
+      <textarea name="entry" rows="8" cols="80" placeholder="Enter your journal entry here..." class="input"></textarea>
+      <button id="journalButton" type="submit">Create Journal Entry</button>
     </form>
     <article id="journal"></article>
     <footer>
-      <a href="index.html" alt"link to Home page">Home Page</a>
-      <a href="journal.html" alt="link to Journal page">Journal</a>
-      <p>something about us? Made for <a href=""> CodeFellow's 201</a> by James Woodson, Smitty Buckler, Drew Biehle.</p><br>
-      <p>&#169; MIT Copyleft</p>
+      <a href="index.html" alt"link to Home page"><img src="images/home-icon.png" /></a>
     </footer>
-    <div id="background"></div>
+    <div id="journalBackground" class="background"></div>
   </body>
   <script src="js/journal.js"></script>
 </html>

@@ -88,6 +88,27 @@ a:hover {
   color: black
 }
 
+
+
+/***********************************
+ Positioning
+***********************************/
+
+.feature {
+  font-size: 22px;
+}
+
+
+a {
+  font-size: 16px;
+  color: #e57e00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 /***********************************
  Positioning
 ***********************************/
@@ -136,4 +157,104 @@ a > img {
 
 a > img:hover {
   opacity: 0.7;
+}
+
+* {
+  color: #79530a;
+}
+
+#journalBackground {
+  background-image: url('../images/journal_background.jpg');
+}
+
+form {
+  background-color: #e57e00;
+  border: 3px solid #687909;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px auto;
+  width: 680px;
+}
+
+label {
+  color: black;
+}
+
+textarea {
+  resize: none;
+}
+
+.input {
+  color: black;
+  background-color: #fcfcf9;
+  text-indent: 3px;
+  margin: 20px;
+}
+
+#journalButton {
+  float: none;
+  border-radius: 10px;
+  color: #fcfcf9;
+  background-color: #79530a;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#trailLabel {
+  margin-left: 50px;
+}
+
+#journal {
+  width: 75%;
+  margin: auto;
+}
+
+#journal div {
+  border: 3px solid #687909;
+  border-radius: 10px;
+  background-color: #dedfd5;
+  margin: 25px;
+}
+
+h3 {
+  font-family: 'Spectral', serif;
+  font-size: 24px;
+}
+
+.title {
+  float: left;
+  display: inline;
+  margin-left: 25px;
+}
+
+.trail {
+  float: right;
+  display: inline;
+  margin-right: 25px;
+}
+
+#journal div hr {
+  clear: both;
+  margin: 3px;
+  border-color: #687909;
+}
+
+#journal div p {
+  font-family: 'Spectral', serif;
+  margin: 25px 25px;
+  text-align: center;
+}
+
+footer a {
+  color: #fcfcf9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer p {
+  color: #fcfcf9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#secondLink {
+  margin-left: 75px;
 }
