@@ -1,11 +1,14 @@
 p {
     font-family: 'Annie Use Your Telescope', serif;
+    letter-spacing: 1px;
   }
 
 h3 {
     font-family: 'Bangers', serif;
+    letter-spacing: 4px;
   }
 
 h1 {
     font-family: 'Barrio', serif;
+    letter-spacing: 4px;
 }
