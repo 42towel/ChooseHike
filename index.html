@@ -2,35 +2,35 @@
 <html>
   <head>
     <title>Choose Your Own Hiking Adventure!</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Bangers|Barrio" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Spectral" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="brown1">
+      <h1 class="orangefont">Choose Your Next Adventure</h1>
     </header>
     <article>
       <form id="formTrailSelector">
-        <fieldset>
-          <legend>Trail Selector</legend>
-            <p>Which part of the Puget Sound would you like to hike?
+        <fieldset class="gray1">
+          <!-- <legend>Find a Hike</legend> -->
+            <p><span class="feature">Where in Seattle area would you like to hike?</span>
               <br />
               <input type="radio" name="regionForm" value="north" checked="checked" /> North
               <input type="radio" name="regionForm" value="south" /> South
               <input type="radio" name="regionForm" value="east" /> East
               <input type="radio" name="regionForm" value="west" /> West
             </p>
-            <p>What kind of hike would you like to try?
+            <p><span class="feature">What kind of hike would you like to try?</span>
               <br />
               <input type="radio" name="difficultyForm" value="easy" checked="checked" /> Easy
               <input type="radio" name="difficultyForm" value="hard" /> Hard
             </p>
-            <input type="submit" value="submit" />
+            <button type="submit" class="green">Find a Hike</button>
         </fieldset>
       </form>
     </article>
-    <div id="journalLink">
+    <div class="brown1" id="journalLink">
       <a href="journal.html" alt="link to Journal page">Journal</a>
-
     </div>
   </body>
   <script src="js/app.js"></script>

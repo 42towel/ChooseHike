@@ -1,0 +1,120 @@
+
+body {
+  background-image: url("../images/backgrounds/hoh.jpg");
+}
+
+/************************************
+  Colors
+*************************************/
+.green {
+  background-color: #687909;
+}
+
+.brown1 {
+  background-color: #79530a;
+}
+
+.brown2 {
+  background-color: #866422;
+}
+
+.orange {
+  background-color: #e57e00;
+}
+
+.orangefont {
+  color: #e57e00;
+}
+
+.gray1 {
+  background-color: #dedfd5;
+}
+
+.gray2 {
+  background-color: #fcfcf9;
+}
+
+/****************************
+  fonts
+*****************************/
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #4a3305;
+  font-variant: small-caps;
+}
+
+h2 {
+  font-family: 'Spectral', serif;
+  font-size: 36px;
+  margin: 8px;
+}
+
+h3 {
+  font-family: 'Spectral', serif;
+  font-size: 24px;
+  margin: 6px;
+}
+
+.feature {
+  font-size: 22px;
+}
+
+button {
+  font-size: 14px;
+}
+
+a, button {
+  color: #e57e00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black
+}
+
+/***********************************
+ Positioning
+***********************************/
+* {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+fieldset {
+  align-content: center;
+  width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 15px 5px;
+}
+
+p {
+  padding: 10px;
+}
+
+button {
+  float: right;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* add transition to button*/
+
+#journalLink {
+  text-align: right;
+  padding: 30px 0px;
+}
+
+a {
+  float: right;
+  margin-right: 40px;
+}
