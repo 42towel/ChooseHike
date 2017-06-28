@@ -16,7 +16,7 @@ var trails = [
     quality: 2,
     distance: 2,
     imgUrl: 'images/seward_park.jpg',
-    mapUrl: 'map placeholder',
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2692.9183009927237!2d-122.25884638492843!3d47.54991879988593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a210c77f0f1%3A0x3c791c08c886fbb8!2sSeward+Park!5e0!3m2!1sen!2sus!4v1498671027447",
     description: 'Located southeast from downtown Seattle, Seward Park resides on the Bailey Peninsula. The park is home to a variety of educational, recreational, and cultural activities. Visitors can enjoy a 2.4 mile bike and walking loop, an amphitheater, a native plant garden, an art studio, sheltered picnic areas, slightly more challenging hiking trails, a swimming beach, and more.',
     source: 'source placeholder'
   },
@@ -41,7 +41,7 @@ var trails = [
     quality: 2,
     distance: 2,
     imgUrl: 'images/franklin_falls.jpg',
-    mapUrl: 'https://goo.gl/maps/TBv5xjqZJwk',
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d344953.94342366717!2d-122.1012706!3d47.5103127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a7911c980648f%3A0xbb344ec8fced0470!2sFranklin+Falls!5e0!3m2!1sen!2sus!4v1498671089921",
     description: 'The trail to Franklin Falls combines history and natural beauty along a compact and easily accessible loop. A visit to the falls makes for a particularly enjoyable half-day\'s outing for anyone who wants to explore the Snoqualmie Pass Region but isn\'t looking for a demanding mountain hike.',
     source: '60 Hikes Within 60 Miles - Seattle'
   },
@@ -53,7 +53,7 @@ var trails = [
     quality: 3,
     distance: 4,
     imgUrl: 'images/mount_si.jpg',
-    mapUrl: 'https://goo.gl/maps/pJR8X8MW1rF2',
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d172177.41136555056!2d-122.0507899!3d47.6013995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54907eec67c1eddb%3A0x856f14b890d4a9ba!2sMt+Si!5e0!3m2!1sen!2sus!4v1498671131282",
     description: 'Just as no tourist can claim to have seen downtown Seattle without a visit to Pike Place Market, no Seattle [can claim to be a] hiker who fails to climb Mount Si. Easy to reach, physically challenging, and capped by a commanding view, the mountain known simply as Si is like a city park crossed with a serious Cascade Mountain Peak.',
     source: '60 Hikes Within 60 Miles - Seattle'
   },
@@ -65,7 +65,7 @@ var trails = [
     quality: 4,
     distance: 4,
     imgUrl: 'images/mud_mountain_dam.jpg',
-    mapUrl: 'https://goo.gl/maps/ctvaYHwkmjr',
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d345890.98847749043!2d-122.3063491!3d47.3675832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490eea12daeb449%3A0x6952958a9193df81!2sMud+Mountain+Dam!5e0!3m2!1sen!2sus!4v1498671170654",
     description: 'This one-of-a-kind trail follows the White River above Mud Mountain Dam, first on a high bluff and then right along the water, providing the unique opportunity to walk on a part-time lake bed. With year-round access, limited traffic, and a feel more like a riparian zone in eastern Washington than anything in the Cascades, this hike is unlike any other in the region.',
     source: '60 Hikes Within 60 Miles - Seattle',
   },
@@ -88,7 +88,7 @@ var trails = [
     quality: 1,
     distance: 2,
     imgUrl: 'images/mount_pilchuck.jpg',
-    mapUrl: 'http://google.com',
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2666.7129081861563!2d-121.7967924!3d48.0578807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549ab43233fd5bad%3A0xf0dcde198862fd33!2sMt+Pilchuck!5e0!3m2!1sen!2sus!4v1498671793471",
     description: 'Despite the foot traffic Wallace Falls sees as one of Washington’s most popular attractions, those who get out early on the trailhead will be rewarded with a serene tranquility that few other hikes in the area can offer. And unlike many trails, which sacrifice peripheral scenery on the journey for the prospect of a grand summit view, the Woody Trail is consistently gorgeous as you wind your way along the Wallace River and approach the nine dazzling falls.'
   },
   {
@@ -99,7 +99,7 @@ var trails = [
     quality: 3,
     distance: 5,
     imgUrl: 'images/gazzam_lake.jpg',
-    mapUrl: 'http://google.com',
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.0603415023074!2d-122.56603809999999!3d47.624958299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54903967903f8299%3A0xc17e8d7c939c2191!2sGazzam+Lake+Nature+Preserve!5e0!3m2!1sen!2sus!4v1498671849017",
     description: 'An easy route with a challenging finish, the main trail through Gazzam Lake Nature Preserve meanders through second-growth forest on Bainbridge Island, plunging down its finish at a small, scenic section of rocky beach.'
   }
 ];
