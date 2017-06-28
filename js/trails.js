@@ -1,23 +1,15 @@
 'use strict';
 var key = 'selectionCriteria';
 var selectionCriteria = retrieveSelectionCriteria();
-
-// function Trail(name, region, difficulty, elevation, quality, distance, imgUrl, mapUrl, description, source) {
-//   this.name = name;
-//   this.region = region;
-//   this.difficulty = difficulty;
-//   this.elevation = elevation;
-//   this.quality = quality;
-//   this.distance = distance;
-//   this.imgUrl = imgUrl;
-//   this.mapUrl = mapUrl;
-//   this.description = description;
-//   this.source = source;
-// }
+var imgDiv =  document.getElementById('img');
+var regionDiv = document.getElementById('region');
+var mapDiv = document.getElementById('map');
+var diffDiv = document.getElementById('difficulty');
+var trailDiv = document.getElementById('trailName');
 
 var trails = [
   {
-    trail: 'Seward Park',
+    name: 'Seward Park',
     region: 'south',
     difficulty: 'easy',
     elevation: 2,
@@ -29,7 +21,7 @@ var trails = [
     source: 'source placeholder'
   },
   {
-    trail: 'Lincoln Park',
+    name: 'Lincoln Park',
     region: 'west',
     difficulty: 'easy',
     elevation: 2,
@@ -41,7 +33,7 @@ var trails = [
     source: 'source placeholder'
   },
   {
-    trail: 'Franklin Falls',
+    name: 'Franklin Falls',
     region: 'east',
     difficulty: 'easy',
     elevation: 2,
@@ -65,7 +57,7 @@ var trails = [
     source: '60 Hikes Within 60 Miles - Seattle'
   },
   {
-    trail: 'Mud Mountain Lake and White River Trail',
+    name: 'Mud Mountain Lake and White River Trail',
     region: 'south',
     difficulty: 'hard',
     elevation: 4,
@@ -77,7 +69,7 @@ var trails = [
     source: '60 Hikes Within 60 Miles - Seattle',
   },
   {
-    trail: 'Carkeek Park',
+    name: 'Carkeek Park',
     region: 'north',
     difficulty: 'easy',
     elevation: 2,
@@ -88,30 +80,54 @@ var trails = [
     description: 'Carkeek Park is located in northwest Seattle, between 3rd Ave NW and Puget Sound. The park includes all of Piper\'s Creek (sometimes written without the apostrophe) plus the adjoining side hills and some side streams, plus a beach area. Park trails can be accessed from several points, and there is an access road that leads to a parking area near the beach. Park entrance is free, and official hours are daily, 6 a.m. to 10 p.m.'
   },
   {
-    trail: 'Mt. Pilchuk',
+    name: 'Mt. Pilchuk',
     region: 'north',
     difficulty: 'hard',
     elevation: 2,
     quality: 1,
     distance: 2,
     imgUrl: 'images/mount_pilchuck.jpg',
-    mapUrl: 'placeholder',
+    mapUrl: 'http://google.com',
     description: 'Despite the foot traffic Wallace Falls sees as one of Washington’s most popular attractions, those who get out early on the trailhead will be rewarded with a serene tranquility that few other hikes in the area can offer. And unlike many trails, which sacrifice peripheral scenery on the journey for the prospect of a grand summit view, the Woody Trail is consistently gorgeous as you wind your way along the Wallace River and approach the nine dazzling falls.'
   },
   {
-    Trail: 'Gazzam Lake Nature Preserve',
+    name: 'Gazzam Lake Nature Preserve',
     region: 'west',
     difficulty: 'hard',
     elevation: 5,
     quality: 3,
     distance: 5,
-    imgUrl: 'images/gazzam.jpg',
-    mapUrl: 'placeholder',
+    imgUrl: 'images/gazzam_lake.jpg',
+    mapUrl: 'http://google.com',
     description: 'An easy route with a challenging finish, the main trail through Gazzam Lake Nature Preserve meanders through second-growth forest on Bainbridge Island, plunging down its finish at a small, scenic section of rocky beach.'
   }
 ];
 
-console.log(trails);
+
+function renderTrail(trail) {
+  //grab each
+  var trailEl = document.createElement('h1');
+  trailEl.textContent = trail.name;
+  trailDiv.appendChild(trailEl);
+
+  var regionEl = document.createElement('p');
+  regionEl.textContent = trail.region;
+  regionDiv.appendChild(regionEl);
+
+  var diffEl = document.createElement('p');
+  diffEl.textContent = trail.difficulty;
+  diffDiv.appendChild(diffEl);
+
+  var mapEl = document.createElement('a');
+  mapEl.setAttribute('href', trail.mapUrl);
+  mapEl.textContent= 'click for map';
+  mapDiv.appendChild(mapEl);
+
+  var imgEl = document.createElement('img');
+  imgEl.setAttribute('src', trail.imgUrl);
+  imgDiv.appendChild(imgEl);
+}
+
 //createOrUpdateEntries
 function retrieveSelectionCriteria() {
   var stringifiedSelectionCriteria = localStorage.getItem(key);
