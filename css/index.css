@@ -129,8 +129,14 @@ button:hover {
   box-shadow: 2px 2px 2px #79530a;
 }
 
-a > button {
+a > img {
+  width: 50px;
+  height: 40px;
   position: fixed;
   bottom: 10px;
   left: 10px;
+}
+
+a > img:hover {
+  opacity: 0.7;
 }
