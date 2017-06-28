@@ -2,17 +2,19 @@
 <html>
   <head>
     <title>Trail Journal</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/journal.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Bangers|Barrio" rel="stylesheet">
   </head>
   <body>
     <form id="createEntry">
       <fieldset>
-        <input name="trail" type="text" placeholder="Mt Si"></input>
-        <input name="title" type="text" placeholder="Entry title"></input>
+        <label>Heading:</label>
+        <input name="title" type="text" placeholder="title" class="input"></input>
+        <label id="trailLabel">Trail:</label>
+        <input name="trail" type="text" class="input"></input>
       </fieldset>
       <fieldset>
-        <textarea name="entry" rows="4" cols="50" placeholder="Enter your journal entry here."></textarea>
+        <textarea name="entry" rows="8" cols="80" placeholder="Enter your journal entry here." class="input"></textarea>
       </fieldset>
       <button type="submit">Create Journal Entry</button>
     </form>
@@ -23,7 +25,7 @@
       <p>something about us? Made for <a href=""> CodeFellow's 201</a> by James Woodson, Smitty Buckler, Drew Biehle.</p><br>
       <p>&#169; MIT Copyleft</p>
     </footer>
+    <div id="background"></div>
   </body>
   <script src="js/journal.js"></script>
-
 </html>

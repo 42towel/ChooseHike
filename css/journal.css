@@ -1,0 +1,73 @@
+* {
+  color: #45260c;
+}
+
+#background {
+  background: url('../images/journal_background.jpg') no-repeat;
+  position: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+form {
+  margin: auto;
+  width: 650px;
+}
+
+textarea {
+  resize: none;
+}
+
+.input {
+  color: #45260c;
+  background-color: #99f7c2;
+  text-indent: 3px;
+}
+
+button {
+  color: #45260c;
+  background-color: #5ce872;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#trailLabel {
+  margin-left: 50px;
+}
+
+#journal {
+  width: 75%;
+  margin: auto;
+}
+
+#journal div {
+  border: 3px solid #45260c;
+  border-radius: 10px;
+  background-color: #f4edaf;
+  margin: 25px;
+}
+
+#journal div h2 {
+  float: left;
+  display: inline;
+  margin-left: 25px;
+}
+
+#journal div h3 {
+  float: right;
+  display: inline;
+  margin-right: 25px;
+}
+
+#journal div hr {
+  clear:both;
+}
+
+#journal div p {
+  margin: 25px 25px;
+  text-align: center;
+}
