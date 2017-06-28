@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  color: #79530a;
 }
 
 .background {
@@ -14,6 +15,10 @@
 
 #homeBackground {
   background-image: url("../images/backgrounds/hoh2.jpg");
+}
+
+#journalBackground {
+  background-image: url('../images/journal_background.jpg');
 }
 
 /************************************
@@ -47,6 +52,10 @@
   background-color: #fcfcf9;
 }
 
+label {
+  color: black;
+}
+
 /****************************
   fonts
 *****************************/
@@ -67,10 +76,10 @@ h2 {
   margin: 8px;
 }
 
+
 h3 {
   font-family: 'Spectral', serif;
   font-size: 24px;
-  margin: 6px;
 }
 
 .feature {
@@ -94,24 +103,6 @@ a:hover {
  Positioning
 ***********************************/
 
-.feature {
-  font-size: 22px;
-}
-
-
-a {
-  font-size: 16px;
-  color: #e57e00;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-}
-
-/***********************************
- Positioning
-***********************************/
 h1 {
   text-align: center;
   padding: 30px 0px;
@@ -120,9 +111,17 @@ h1 {
 fieldset {
   align-content: center;
   width: 600px;
-  margin: 60px auto;
   padding: 20px;
   border-radius: 15px 5px;
+}
+
+form {
+  background-color: #e57e00;
+  border: 3px solid #687909;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px auto;
+  width: 645px;
 }
 
 p {
@@ -145,39 +144,6 @@ button {
 button:hover {
   background-color: #687909;
   box-shadow: 2px 2px 2px #79530a;
-}
-
-a > img {
-  width: 50px;
-  height: 40px;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-}
-
-a > img:hover {
-  opacity: 0.7;
-}
-
-* {
-  color: #79530a;
-}
-
-#journalBackground {
-  background-image: url('../images/journal_background.jpg');
-}
-
-form {
-  background-color: #e57e00;
-  border: 3px solid #687909;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 50px auto;
-  width: 680px;
-}
-
-label {
-  color: black;
 }
 
 textarea {
@@ -216,11 +182,6 @@ textarea {
   margin: 25px;
 }
 
-h3 {
-  font-family: 'Spectral', serif;
-  font-size: 24px;
-}
-
 .title {
   float: left;
   display: inline;
@@ -253,6 +214,18 @@ footer a {
 footer p {
   color: #fcfcf9;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+a > img {
+  width: 50px;
+  height: 40px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+a > img:hover {
+  opacity: 0.7;
 }
 
 #secondLink {
