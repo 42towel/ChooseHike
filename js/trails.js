@@ -6,6 +6,8 @@ var regionDiv = document.getElementById('region');
 var mapDiv = document.getElementById('iframe');
 var diffDiv = document.getElementById('difficulty');
 var trailDiv = document.getElementById('trailName');
+var citeDiv = document.getElementById('cite');
+
 
 var trails = [
   {
@@ -98,6 +100,7 @@ var trails = [
     quality: 3,
     distance: 5,
     imgUrl: 'images/gazzam_lake.jpg',
+    citeUrl: "https://www.flickr.com/photos/loneconspirator/3755432517/in/photostream/",
     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86049.93092807384!2d-122.63388725489848!3d47.62495829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54903967903f8299%3A0xc17e8d7c939c2191!2sGazzam+Lake+Nature+Preserve!5e0!3m2!1sen!2sus!4v1498672321752",
     description: 'An easy route with a challenging finish, the main trail through Gazzam Lake Nature Preserve meanders through second-growth forest on Bainbridge Island, plunging down its finish at a small, scenic section of rocky beach.'
   }
@@ -146,12 +149,19 @@ function renderTrail(trail) {
 
   var mapEl = document.createElement('iframe');
   mapEl.setAttribute('src', trail.mapUrl);
-  mapEl.textContent= 'click for map';
+  // mapEl.textContent= 'click for map';
   mapDiv.appendChild(mapEl);
 
   var imgEl = document.createElement('img');
   imgEl.setAttribute('src', trail.imgUrl);
   imgDiv.appendChild(imgEl);
+
+  if (trail.name === 'Gazzam Lake Nature Preserve') {
+    var citeEl = document.createElement('a');
+    citeEl.setAttribute('href', trail.citeUrl);
+    citeEl.textContent = 'image citation';
+    citeDiv.appendChild(citeEl);
+  }
 }
 
 //createOrUpdateEntries
@@ -161,9 +171,6 @@ function retrieveSelectionCriteria() {
   return selectionCriteria;
 }
 
-// <div class="embed-responsive embed-responsive-16by9">
-// <iframe class="embed-responsive-item" src="//www.youtube.com/embed/wMuNjnNyaiA" allowfullscreen></iframe>
-// </div>
 
 //turn array to objects
 //event listener
