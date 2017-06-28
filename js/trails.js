@@ -27,7 +27,7 @@ var trails = [
     elevation: 2,
     quality: 1,
     distance: 2,
-    imgUrl:  'images/lincolnpark.jpg',
+    imgUrl:  'images/lincoln_park.jpg',
     map: 'https://goo.gl/maps/yAYQJDnsr8S2',
     description: 'Located on the western edge of West Seattle, Lincoln park offers 5 miles of trails, including a loop hike with bluff and beachfront views of Puget Sound, Vashon Island, and the Olympic Mountains. The park is family-friendly, with a wading pool, playground, bathroom facilities, ball fields, and multiple trail options.',
     source: 'source placeholder'
@@ -45,7 +45,7 @@ var trails = [
     source: '60 Hikes Within 60 Miles - Seattle'
   },
   {
-    trails: 'Mount Si',
+    name: 'Mount Si',
     region: 'east',
     difficulty: 'hard',
     elevation: 5,
@@ -103,9 +103,35 @@ var trails = [
   }
 ];
 
+main();
+function main() {
+  //match selectionCriteria.region to the subset of trails in the correct region
+  var regionalTrails = selectRegion();
+  //select best match
+  var bestTrail = selectTrail(regionalTrails);
+  //render best trail
+  renderTrail(bestTrail);
+}
+function selectRegion() {
+  var result = [];
+  for (var i = 0; i < trails.length; i++) {
+    if (selectionCriteria.region === trails[i].region) {
+      result.push(trails[i]);
+    }
+  }
+  return result;
+}
+
+function selectTrail(trailList) {
+  for (var i = 0; i < trailList.length; i++) {
+    if (selectionCriteria.difficulty === trailList[i].difficulty) {
+      return trailList[i];
+    }
+  }
+}
 
 function renderTrail(trail) {
-  //grab each
+
   var trailEl = document.createElement('h1');
   trailEl.textContent = trail.name;
   trailDiv.appendChild(trailEl);
