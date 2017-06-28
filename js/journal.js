@@ -30,7 +30,7 @@ submit.addEventListener('submit', function(e) {
   journalEntryArray.unshift(myEntry);
   printJournal();
   createOrUpdateEntries(journalEntryArray);
-  location.reload();
+  submit.reset();
 });
 
 
