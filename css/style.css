@@ -12,6 +12,10 @@
   height: 100%;
 }
 
+#homeBackground {
+  background-image: url("../images/backgrounds/hoh2.jpg");
+}
+
 /************************************
   Colors
 *************************************/
@@ -42,9 +46,6 @@
 .gray2 {
   background-color: #fcfcf9;
 }
-
-
-
 
 /****************************
   fonts
@@ -93,6 +94,24 @@ a:hover {
  Positioning
 ***********************************/
 
+.feature {
+  font-size: 22px;
+}
+
+
+a {
+  font-size: 16px;
+  color: #e57e00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+/***********************************
+ Positioning
+***********************************/
 h1 {
   text-align: center;
   padding: 30px 0px;
