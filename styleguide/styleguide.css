@@ -1,0 +1,71 @@
+
+#colors li {
+  border: 0.5px solid black;
+  border-radius: 10%;
+  display: inline;
+  float: left;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+#green {
+  background-color: #687909;
+}
+
+#brown1 {
+  background-color: #79530a;
+}
+
+#brown2 {
+  background-color: #866422;
+}
+
+#orange {
+  background-color: #e57e00;
+}
+
+#gray1 {
+  background-color: #dedfd5;
+}
+
+#gray2 {
+  background-color: #fcfcf9;
+}
+/****************************
+  fonts
+*****************************/
+h3 {
+  clear: left;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#serif {
+  font-family: 'Spectral', serif;
+}
+
+#serif h1 {
+  font-size: 48px;
+  margin: 10px;
+}
+
+#serif h2 {
+  font-size: 36px;
+  margin: 8px;
+}
+
+#serif h3 {
+  font-size: 24px;
+  margin: 6px;
+}
+
+#josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+}
+
+#montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
