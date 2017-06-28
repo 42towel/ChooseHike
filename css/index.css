@@ -129,10 +129,6 @@ button:hover {
   box-shadow: 2px 2px 2px #79530a;
 }
 
-fieldset > button:hover {
-  color: #79530a;
-}
-
 a > button {
   position: fixed;
   bottom: 10px;
