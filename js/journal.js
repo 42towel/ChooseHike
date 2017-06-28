@@ -30,6 +30,7 @@ submit.addEventListener('submit', function(e) {
   journalEntryArray.unshift(myEntry);
   printJournal();
   createOrUpdateEntries(journalEntryArray);
+  location.reload();
 });
 
 
@@ -41,15 +42,17 @@ function JournalEntry(trail, title, entry) {
 
 function renderEntry(entry) {
   var div = document.createElement('div');
-  var h2 = document.createElement('h2');
-  h2.textContent = entry.title;
-  var h3 = document.createElement('h3');
-  h3.textContent = entry.trail;
+  var h3Title = document.createElement('h3');
+  h3Title.setAttribute('class', 'title');
+  h3Title.textContent = entry.title;
+  var h3Trail = document.createElement('h3');
+  h3Trail.setAttribute('class', 'trail');
+  h3Trail.textContent = entry.trail;
   var hr = document.createElement('hr');
   var p = document.createElement('p');
   p.textContent = entry.entry;
-  div.appendChild(h2);
-  div.appendChild(h3);
+  div.appendChild(h3Title);
+  div.appendChild(h3Trail);
   div.appendChild(hr);
   div.appendChild(p);
   journal.appendChild(div);
