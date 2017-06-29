@@ -61,7 +61,7 @@ background-size: cover;
 
 .h3T {
   color: #660000;
-
+  text-transform: uppercase;
 }
 
 .gray1 {
@@ -147,6 +147,17 @@ form {
 
 p {
   padding: 10px;
+}
+
+.regionbuttons {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.numboxes {
+  text-align: center;
+  width: 30px;
+  margin: 5px 0px;
 }
 
 a {
