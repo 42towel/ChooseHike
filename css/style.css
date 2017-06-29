@@ -61,7 +61,7 @@ background-size: cover;
 
 .h3T {
   color: #660000;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .gray1 {
@@ -269,6 +269,7 @@ a > img:hover {
   float: left;
   align-items: left;
   margin-left: 0;
+  text-transform: capitalize;
   /*display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
