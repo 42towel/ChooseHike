@@ -67,8 +67,12 @@
   background-color: #fcfcf9;
 }
 
+.grayFont {
+  color: #dedfd5;
+}
+
 label {
-  color: black;
+  color: #dedfd5;
 }
 
 /****************************
@@ -191,7 +195,7 @@ textarea {
   margin: 20px;
 }
 
-#journalButton {
+.button {
   float: none;
   border-radius: 10px;
   color: #fcfcf9;

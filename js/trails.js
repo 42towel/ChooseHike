@@ -241,7 +241,7 @@ function selectTrail(trailList) {
     comparison += Math.abs(trailList[i].elevation - selectionCriteria.elevation);
     comparison += Math.abs(trailList[i].quality - selectionCriteria.quality);
     concordanceArray.push(comparison);
-    if (!bestComparison) {
+    if (bestComparison === null) {
       bestComparison = comparison;
     } else {
       if (comparison < bestComparison) {
