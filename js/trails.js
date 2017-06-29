@@ -243,6 +243,7 @@ function main() {
   //render best trail
   renderTrail(bestTrail);
 }
+
 function selectRegion() {
   var result = [];
   for (var i = 0; i < trails.length; i++) {
