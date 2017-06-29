@@ -4,7 +4,6 @@
 - Smitty Buckler
 - James Woodson
 - Drew Biehle
-- Elaine Keller
 
 ### Problem Statement
 - You have a need to get outside
