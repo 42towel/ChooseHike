@@ -184,7 +184,8 @@ button:hover {
   box-shadow: 2px 2px 2px #79530a;
 }
 
-textarea {
+form textarea {
+  width: 93%;
   resize: none;
 }
 
