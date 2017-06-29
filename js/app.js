@@ -1,8 +1,9 @@
 'use strict';
 
 var key = 'selectionCriteria';
-///capture values
+
 var formParent = document.getElementById('formTrailSelector');
+
 // on submit get the data, store it in localStorage, and send user to new trails.html
 formParent.addEventListener('submit', function(e) {
   e.preventDefault();
@@ -16,7 +17,6 @@ formParent.addEventListener('submit', function(e) {
   window.location.href = 'trails.html';
 });
 
-//return values
 //createOrUpdateEntries
 function createOrUpdateEntries(key, selectionCriteria) {
   var stringifiedCriteria = JSON.stringify(selectionCriteria);
