@@ -15,10 +15,10 @@
 }
 
 #trailsBackground {
-background-size: cover;
-  background-color: #006600;
+/*background-size: cover;*/
+  /*background-color: #006600;*/
   background-image: url('../images/backgrounds/river.jpg');
-  opacity: .4
+  /*opacity: .4*/
 
 }
 
@@ -34,10 +34,10 @@ background-size: cover;
   Colors
 *************************************/
 .green {
-  background-color: #006600;
+  background-color: #687909;
 }
 
-.brown {
+.brown1 {
   background-color: #79530a;
 }
 
@@ -49,7 +49,6 @@ background-size: cover;
   background-color: #660000;
   color: #ffff99;
 }
-
 
 .orange {
   background-color: #e57e00;

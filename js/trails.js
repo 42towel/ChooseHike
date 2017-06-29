@@ -9,8 +9,7 @@ var trailDiv = document.getElementById('trailName');
 var citeDiv = document.getElementById('cite');
 var elevationDiv = document.getElementById('elevation');
 var qualityDiv = document.getElementById('quality');
-var distanceDIv = document.getElementById('distance');
-
+var distanceDiv = document.getElementById('distance');
 
 var trails = [
   {
@@ -245,6 +244,9 @@ function main() {
 }
 
 function selectRegion() {
+  if (selectionCriteria.region === 'no_preference') {
+    return trails;
+  }
   var result = [];
   for (var i = 0; i < trails.length; i++) {
     if (selectionCriteria.region === trails[i].region) {
@@ -304,7 +306,7 @@ function renderTrail(trail) {
 
   var mapEl = document.createElement('iframe');
   mapEl.setAttribute('src', trail.mapUrl);
-  mapEl.textContent= 'click for map';
+  mapEl.textContent = 'click for map';
   mapDiv.appendChild(mapEl);
 
   var imgEl = document.createElement('img');
