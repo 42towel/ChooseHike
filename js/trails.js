@@ -21,7 +21,7 @@ var trails = [
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d43076.691630403126!2d-122.32806884815527!3d47.56208294368689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906a210c77f0f1%3A0x3c791c08c886fbb8!2sSeward+Park!5e0!3m2!1sen!2sus!4v1498672560976',
     description: 'Located southeast from downtown Seattle, Seward Park resides on the Bailey Peninsula. The park is home to a variety of educational, recreational, and cultural activities. Visitors can enjoy a 2.4 mile bike and walking loop, an amphitheater, a native plant garden, an art studio, sheltered picnic areas, slightly more challenging hiking trails, a swimming beach, and more.'
   },
-  {
+  { 
     name: 'Mud Mountain Lake and White River Trail',
     region: 'south',
     difficulty: 'hard',
@@ -95,7 +95,7 @@ var trails = [
     difficulty: 'hard',
     elevation: 5,
     quality: 3,
-    distance: 4,
+    distance: 5,
     imgUrl: 'images/mount_si.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d172177.41136555056!2d-122.0507899!3d47.6013995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54907eec67c1eddb%3A0x856f14b890d4a9ba!2sMt+Si!5e0!3m2!1sen!2sus!4v1498672442210',
     description: 'To call Mount Si a popular trail is an understatement. It is hiked each year by upwards of 100,000 people. Its rugged beauty and its proximity to Seattle all but guarantee that the parking lot is overflowing on any nice (and many a not-so-nice) day.'
@@ -145,48 +145,48 @@ var trails = [
     description: 'Each year, from fall to spring, this area is a bird paradise, with snow geese and trumpeter and tundra swans overwintering in huge numbers. There are several access points in the wildlife refuge. The Headquarters area has a 2-mile trail, and Big Ditch, Wylie Slough and Fir Island are also popular walking access areas.'
   },
   {
-    name: '',
+    name: 'Lake Whatcom Trail',
     region: 'north',
     difficulty: '',
-    elevation: 0,
-    quality: 0,
-    distance: 0,
-    imgUrl: '',
-    mapUrl: '',
-    description: ''
+    elevation: 1,
+    quality: 2,
+    distance: 4,
+    imgUrl: 'images/lake_whatcom.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1359156.3346004644!2d-123.66288273928002!3d48.29126815194429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slake+whatcom+trail!5e0!3m2!1sen!2sus!4v1498755462315',
+    description: 'Take a pleasant stroll along a mellow trail that borders the southeast side of Lake Whatcom, just southwest of the city of Bellingham. Lake Whatcom has the unusual privilege of functioning both as the city\'s watershed and as an active recreation area for residents. As such, recreation in this area is well-controlled, and this trail is one of only two points on the lake that provides public access to the waterfront. But step just a few feet down the trail and you\'ll leave the crowds behind, with only old-growth trees and silent cliffs to keep you company. '
   },
   {
-    name: '',
+    name: 'Beaver Pond Trail',
     region: 'north',
     difficulty: '',
-    elevation: 0,
-    quality: 0,
-    distance: 0,
-    imgUrl: '',
-    mapUrl: '',
-    description: ''
+    elevation: 2,
+    quality: 3,
+    distance: 1,
+    imgUrl: 'images/beaver_pond.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d683879.4397714676!2d-122.95168893024751!3d47.96724693790275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54856be9607cbaf1%3A0x5e652eb3d1254043!2sBeaver+Pond+Dr+N%2C+Mt+Vernon%2C+WA+98274!5e0!3m2!1sen!2sus!4v1498756067337',
+    description: 'Located in the Eaglemont neighborhood of Mount Vernon, this short little out and back gravel trail delivers visitors through wetlands and past beaver ponds.'
   },
   {
-    name: '',
+    name: 'Bandera Mountain',
     region: 'east',
     difficulty: '',
-    elevation: 0,
-    quality: 0,
-    distance: 0,
-    imgUrl: '',
-    mapUrl: '',
-    description: ''
+    elevation: 4,
+    quality: 2,
+    distance: 5,
+    imgUrl: 'images/bandera_mountain.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344441.0756813788!2d-122.25110389317179!3d47.5882942612679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490821acdc94e61%3A0x7aad30204b9d590a!2sBandera+Mountain!5e0!3m2!1sen!2sus!4v1498756734922',
+    description: 'Bandera Mountain is a chameleon. Most would describe it as an easy hike--relatively short and not very steep for most of its length–-but then it suddenly changes, turning informal and rough, particularly in its last half mile, making it feel like the rugged backcountry trek it at times can be.'
   },
   {
-    name: '',
+    name: 'Rattlesnake Mountain',
     region: 'east',
     difficulty: '',
-    elevation: 0,
-    quality: 0,
-    distance: 0,
-    imgUrl: '',
-    mapUrl: '',
-    description: ''
+    elevation: 3,
+    quality: 2,
+    distance: 5,
+    imgUrl: 'images/rattlesnake_mountain.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344527.051915793!2d-122.31684497343154!3d47.575228340962134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54907d092b367683%3A0x58ac9644dd367c39!2sRattlesnake+Ridge!5e0!3m2!1sen!2sus!4v1498759333802',
+    description: 'If you\'ve hiked to Rattlesnake Ledges and beyond from Rattlesnake Lake, this is a delightful alternative. Thanks to the handiwork of various groups in the outdoor community, hikers can now reach Rattlesnake Mountain from the west, starting from a trailhead at Snoqualmie Point.'
   },
   {
     name: 'Boulder Cave',
