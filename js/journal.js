@@ -23,7 +23,6 @@ function printJournal() {
 
 submit.addEventListener('submit', function(e) {
   e.preventDefault();
-  console.log('hey');
   var trail = e.target.trail.value;
   var title = e.target.title.value;
   var entry = e.target.entry.value;
