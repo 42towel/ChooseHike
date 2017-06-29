@@ -26,7 +26,7 @@ var trails = [
     region: 'south',
     difficulty: 'hard',
     elevation: 4,
-    quality: 4,
+    quality: 2,
     distance: 4,
     imgUrl: 'images/mud_mountain_dam.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d345890.98847749043!2d-122.3063491!3d47.3675832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490eea12daeb449%3A0x6952958a9193df81!2sMud+Mountain+Dam!5e0!3m2!1sen!2sus!4v1498671170654',
@@ -37,7 +37,7 @@ var trails = [
     region: 'west',
     difficulty: 'easy',
     elevation: 2,
-    quality: 1,
+    quality: 5,
     distance: 2,
     imgUrl:  'images/lincoln_park.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86207.4462548341!2d-122.46680893982784!3d47.52919990131573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54904139d8f5169d%3A0xe7921cfad18b2bfd!2sLincoln+Park!5e0!3m2!1sen!2sus!4v1498672726591',
@@ -61,7 +61,7 @@ var trails = [
     region: 'north',
     difficulty: 'easy',
     elevation: 2,
-    quality: 1,
+    quality: 5,
     distance: 2,
     imgUrl:  'images/carkeek_park.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85907.16058710117!2d-122.4422066398206!3d47.71162678871087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549016bbf4365cc9%3A0x10f611edb87766b5!2sCarkeek+Park!5e0!3m2!1sen!2sus!4v1498672238846',
@@ -71,9 +71,9 @@ var trails = [
     name: 'Mt. Pilchuk',
     region: 'north',
     difficulty: 'hard',
-    elevation: 2,
-    quality: 1,
-    distance: 2,
+    elevation: 4,
+    quality: 2,
+    distance: 3,
     imgUrl: 'images/mount_pilchuck.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170738.09032246456!2d-122.15852582775993!3d48.037224266522855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549ab43233fd5bad%3A0xf0dcde198862fd33!2sMt+Pilchuck!5e0!3m2!1sen!2sus!4v1498672392420',
     description: 'Despite the foot traffic Wallace Falls sees as one of Washington’s most popular attractions, those who get out early on the trailhead will be rewarded with a serene tranquility that few other hikes in the area can offer. And unlike many trails, which sacrifice peripheral scenery on the journey for the prospect of a grand summit view, the Woody Trail is consistently gorgeous as you wind your way along the Wallace River and approach the nine dazzling falls.'
@@ -83,7 +83,7 @@ var trails = [
     region: 'east',
     difficulty: 'easy',
     elevation: 2,
-    quality: 2,
+    quality: 4,
     distance: 2,
     imgUrl: 'images/franklin_falls.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d344953.94342366717!2d-122.1012706!3d47.5103127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549a7911c980648f%3A0xbb344ec8fced0470!2sFranklin+Falls!5e0!3m2!1sen!2sus!4v1498672486005',
@@ -105,7 +105,7 @@ var trails = [
     region: 'west',
     difficulty: '',
     elevation: 2,
-    quality: 2,
+    quality: 4,
     distance: 2,
     imgUrl: 'images/schmitz_park.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d43050.7483327131!2d-122.38992733567916!3d47.593626003196505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sschmitz+park!5e0!3m2!1sen!2sus!4v1498751374702',
@@ -116,7 +116,7 @@ var trails = [
     region: 'west',
     difficulty: '',
     elevation: 2,
-    quality: 4,
+    quality: 2,
     distance: 4,
     imgUrl: 'images/blake_island.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d86117.25073107485!2d-122.46339803361965!3d47.584050420317176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sblake+island+state+park!5e0!3m2!1sen!2sus!4v1498751765863',
@@ -127,7 +127,7 @@ var trails = [
     region: 'west',
     difficulty: '',
     elevation: 3,
-    quality: 2,
+    quality: 4,
     distance: 3,
     imgUrl: 'images/gold_creek.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d343501.67981191643!2d-122.6926593773973!3d47.73087868196898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490339243f8d50d%3A0xf689ee87c2c14107!2sGreen+Mountain!5e0!3m2!1sen!2sus!4v1498753558916',
@@ -138,7 +138,7 @@ var trails = [
     region: 'north',
     difficulty: '',
     elevation: 1,
-    quality: 2,
+    quality: 4,
     distance: 2,
     imgUrl: 'images/skagit_wildlife_area.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d683766.5874832192!2d-122.93409322387531!3d47.97576932018909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548567eb925893ed%3A0xa58d13bda4252378!2sSkagit+Wildlife+Area!5e0!3m2!1sen!2sus!4v1498754396504',
@@ -149,7 +149,7 @@ var trails = [
     region: 'north',
     difficulty: '',
     elevation: 1,
-    quality: 2,
+    quality: 4,
     distance: 4,
     imgUrl: 'images/lake_whatcom.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1359156.3346004644!2d-123.66288273928002!3d48.29126815194429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slake+whatcom+trail!5e0!3m2!1sen!2sus!4v1498755462315',
@@ -171,7 +171,7 @@ var trails = [
     region: 'east',
     difficulty: '',
     elevation: 4,
-    quality: 2,
+    quality: 4,
     distance: 5,
     imgUrl: 'images/bandera_mountain.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344441.0756813788!2d-122.25110389317179!3d47.5882942612679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490821acdc94e61%3A0x7aad30204b9d590a!2sBandera+Mountain!5e0!3m2!1sen!2sus!4v1498756734922',
@@ -182,7 +182,7 @@ var trails = [
     region: 'east',
     difficulty: '',
     elevation: 3,
-    quality: 2,
+    quality: 4,
     distance: 5,
     imgUrl: 'images/rattlesnake_mountain.jpg',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344527.051915793!2d-122.31684497343154!3d47.575228340962134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54907d092b367683%3A0x58ac9644dd367c39!2sRattlesnake+Ridge!5e0!3m2!1sen!2sus!4v1498759333802',
@@ -245,16 +245,6 @@ function main() {
 }
 
 function selectRegion() {
-  var result = [];
-  for (var i = 0; i < trails.length; i++) {
-    if (selectionCriteria.region === trails[i].region) {
-      result.push(trails[i]);
-    }
-  }
-  return result;
-}
-
-function selectRegions() {
   if (selectionCriteria.region === 'no_preference') {
     return trails;
   }
@@ -268,15 +258,8 @@ function selectRegions() {
 }
 
 function selectTrail(trailList) {
-  for (var i = 0; i < trailList.length; i++) {
-    if (selectionCriteria.difficulty === trailList[i].difficulty) {
-      return trailList[i];
-    }
-  }
-}
-
-function selectTrails(trailList) {
   var concordanceArray = [];
+  var bestComparison = null;
   //get array of concordance values
   for (var i = 0; i < trailList.length; i++) {
     var comparison = 0;
@@ -284,9 +267,15 @@ function selectTrails(trailList) {
     comparison += Math.abs(trailList[i].elevation - selectionCriteria.elevation);
     comparison += Math.abs(trailList[i].quality - selectionCriteria.quality);
     concordanceArray.push(comparison);
+    if (!bestComparison) {
+      bestComparison = comparison;
+    } else {
+      if (comparison < bestComparison) {
+        bestComparison = comparison;
+      }
+    }
   }
-  var bestConcordanceValue = Math.min(concordanceArray);
-  var bestTrailIndex = trailList.indexOf(bestConcordanceValue);
+  var bestTrailIndex = concordanceArray.indexOf(bestComparison);
   return trailList[bestTrailIndex];
 }
 
