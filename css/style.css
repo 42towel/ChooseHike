@@ -1,6 +1,7 @@
 * {
   margin: 0;
   /*color: #79530a;*/
+  text-align: center;
 }
 
 .background {
@@ -14,8 +15,13 @@
 }
 
 #trailsBackground {
-  background-image: url(id="img");
+background-size: cover;
+  background-color: #006600;
+  background-image: url('../images/backgrounds/gps.png');
+  opacity: .4
+
 }
+
 #homeBackground {
   background-image: url("../images/backgrounds/hoh2.jpg");
 }
@@ -28,17 +34,22 @@
   Colors
 *************************************/
 .green {
-  background-color: #687909;
+  background-color: #006600;
 }
 
-.brown1 {
+.brown {
   background-color: #79530a;
-  color: #e57e00;
 }
 
 .brown2 {
   background-color: #866422;
 }
+
+.adventure {
+  background-color: #660000;
+  color: #ffff99;
+}
+
 
 .orange {
   background-color: #e57e00;
@@ -46,6 +57,10 @@
 
 .orangefont {
   color: #e57e00;
+}
+
+.h3T {
+  color: #660000;
 }
 
 .gray1 {
@@ -72,7 +87,7 @@ h1 {
   font-size: 48px;
   text-shadow: 2px 2px 2px #4a3305;
   font-variant: small-caps;
-  /*color: #e57e00;*/
+  color: #e57e00;
 }
 
 h2 {
@@ -235,4 +250,11 @@ a > img:hover {
 
 #secondLink {
   margin-left: 75px;
+}
+
+.section1trails {
+  background-color: #ffffff;
+  float: left;
+  align-items: left;
+  margin-left: 1;
 }

@@ -115,6 +115,7 @@ function main() {
   //render best trail
   renderTrail(bestTrail);
 }
+
 function selectRegion() {
   var result = [];
   for (var i = 0; i < trails.length; i++) {
@@ -155,11 +156,6 @@ function renderTrail(trail) {
   var imgEl = document.createElement('img');
   imgEl.setAttribute('src', trail.imgUrl);
   imgDiv.appendChild(imgEl);
-
-  var imgBG = document.querySelector('img');
-  // imgBG.style.background-i = 'img';
-//   var myElement = document.querySelector("#superman");
-// myElement.style.backgroundColor = "#D93600";
 
   if (trail.name === 'Gazzam Lake Nature Preserve') {
     var citeEl = document.createElement('a');
