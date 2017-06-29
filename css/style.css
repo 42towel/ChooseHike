@@ -15,11 +15,7 @@
 }
 
 #trailsBackground {
-/*background-size: cover;*/
-  /*background-color: #006600;*/
-  background-image: url('../images/backgrounds/river.jpg');
-  /*opacity: .4*/
-
+  background-color: #dedfd5;
 }
 
 #homeBackground {
@@ -122,6 +118,13 @@ a:hover {
 /***********************************
  Positioning
 ***********************************/
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 5px 0px;
+}
 
 h1 {
   text-align: center;
@@ -234,7 +237,6 @@ textarea {
 #journal div p {
   font-family: 'Spectral', serif;
   margin: 25px 25px;
-  text-align: center;
 }
 
 footer a {
@@ -263,15 +265,18 @@ a > img:hover {
   margin-left: 75px;
 }
 
-.section1trails {
-  background-color: #ffffff;
+#section1trails {
   float: left;
-  align-items: left;
-  margin-left: 0;
-  text-transform: capitalize;
-  /*display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;*/
-  /*text-align: center;*/
+  width: 30%;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 60%;
+  box-sizing: border-box;
+}
+
+h3 {
+  display: inline;
 }
