@@ -7,6 +7,9 @@ var mapDiv = document.getElementById('iframe');
 var diffDiv = document.getElementById('difficulty');
 var trailDiv = document.getElementById('trailName');
 var citeDiv = document.getElementById('cite');
+var elevationDiv = document.getElementById('elevation');
+var qualityDiv = document.getElementById('quality');
+var distanceDiv = document.getElementById('distance');
 
 
 var trails = [
@@ -236,11 +239,8 @@ var trails = [
 
 main();
 function main() {
-  //match selectionCriteria.region to the subset of trails in the correct region
   var regionalTrails = selectRegion();
-  //select best match
   var bestTrail = selectTrail(regionalTrails);
-  //render best trail
   renderTrail(bestTrail);
 }
 
@@ -264,21 +264,33 @@ function selectTrail(trailList) {
 
 function renderTrail(trail) {
 
-  var trailEl = document.createElement('h1');
+  var trailEl = document.createElement('h2');
   trailEl.textContent = trail.name;
   trailDiv.appendChild(trailEl);
 
-  var regionEl = document.createElement('p');
+  var regionEl = document.createElement('h3');
   regionEl.textContent = trail.region;
   regionDiv.appendChild(regionEl);
 
-  var diffEl = document.createElement('p');
+  var diffEl = document.createElement('h3');
   diffEl.textContent = trail.difficulty;
   diffDiv.appendChild(diffEl);
 
+  var elevationEl = document.createElement('h3');
+  elevationEl.textContent = trail.elevation;
+  elevationDiv.appendChild(elevationEl);
+
+  var qualityEl = document.createElement('h3');
+  qualityEl.textContent = trail.quality;
+  qualityDiv.appendChild(qualityEl);
+
+  var distanceEl = document.createElement('h3');
+  distanceEl.textContent = trail.distance;
+  distanceDiv.appendChild(distanceEl);
+
   var mapEl = document.createElement('iframe');
   mapEl.setAttribute('src', trail.mapUrl);
-  // mapEl.textContent= 'click for map';
+  mapEl.textContent= 'map';
   mapDiv.appendChild(mapEl);
 
   var imgEl = document.createElement('img');
@@ -293,14 +305,8 @@ function renderTrail(trail) {
   }
 }
 
-//createOrUpdateEntries
 function retrieveSelectionCriteria() {
   var stringifiedSelectionCriteria = localStorage.getItem(key);
   selectionCriteria = JSON.parse(stringifiedSelectionCriteria);
   return selectionCriteria;
 }
-
-
-//turn array to objects
-//event listener
-//render function
