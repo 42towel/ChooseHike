@@ -99,6 +99,138 @@ var trails = [
     citeUrl: 'https://www.flickr.com/photos/loneconspirator/3755432517/in/photostream/',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86049.93092807384!2d-122.63388725489848!3d47.62495829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54903967903f8299%3A0xc17e8d7c939c2191!2sGazzam+Lake+Nature+Preserve!5e0!3m2!1sen!2sus!4v1498672321752',
     description: 'An easy route with a challenging finish, the main trail through Gazzam Lake Nature Preserve meanders through second-growth forest on Bainbridge Island, plunging down its finish at a small, scenic section of rocky beach.'
+  },
+  {
+    name: 'Schmitz Preserve Park',
+    region: 'west',
+    difficulty: '',
+    elevation: 2,
+    quality: 2,
+    distance: 2,
+    imgUrl: 'images/schmitz_park.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d43050.7483327131!2d-122.38992733567916!3d47.593626003196505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sschmitz+park!5e0!3m2!1sen!2sus!4v1498751374702',
+    description: 'It\'s astonishing to find, in the middle of West Seattle, as many old growth trees as you might see in a whole season of hiking at Tiger Mountain. But Schmitz Preserve Park offers exactly that! The 53.1 acre park was formed from land donated to the city between 1908 and 1912, before the area had been completely logged. The largest parcel was donated by German immigrants Ferdinand and Emma Schmitz, after whom the park is named.'
+  },
+  {
+    name: 'Blake Island State Park',
+    region: 'west',
+    difficulty: '',
+    elevation: 2,
+    quality: 4,
+    distance: 4,
+    imgUrl: 'images/blake_island.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d86117.25073107485!2d-122.46339803361965!3d47.584050420317176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sblake+island+state+park!5e0!3m2!1sen!2sus!4v1498751765863',
+    description: 'Originally home to the Suquamish Indian tribe and legendary for being the supposed birthplace of Chief Sealth, over the years Blake Island has also served as a timber source, a private estate, Army base, and even a smuggler’s refuge. It now may be best known for Tillicum Village, a Native American re-enactment retreat accessible via ferry from nearby Seattle.'
+  },
+  {
+    name: 'Green Mountain - Gold Creek Trail',
+    region: 'west',
+    difficulty: '',
+    elevation: 3,
+    quality: 2,
+    distance: 3,
+    imgUrl: 'images/gold_creek.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d343501.67981191643!2d-122.6926593773973!3d47.73087868196898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490339243f8d50d%3A0xf689ee87c2c14107!2sGreen+Mountain!5e0!3m2!1sen!2sus!4v1498753558916',
+    description: 'The Gold Creek Trail up Green Mountain heads through a working forest, so be aware that there may be closures due to logging activity. However, DNR will often provide well-marked detours, so even if they\'re working away, you will have somewhere to hike on this hill.'
+  },
+  {
+    name: 'Skagit Wildlife Area',
+    region: 'north',
+    difficulty: '',
+    elevation: 1,
+    quality: 2,
+    distance: 2,
+    imgUrl: 'images/skagit_wildlife_area.jpg',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d683766.5874832192!2d-122.93409322387531!3d47.97576932018909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548567eb925893ed%3A0xa58d13bda4252378!2sSkagit+Wildlife+Area!5e0!3m2!1sen!2sus!4v1498754396504',
+    description: 'Each year, from fall to spring, this area is a bird paradise, with snow geese and trumpeter and tundra swans overwintering in huge numbers. There are several access points in the wildlife refuge. The Headquarters area has a 2-mile trail, and Big Ditch, Wylie Slough and Fir Island are also popular walking access areas.'
+  },
+  {
+    name: '',
+    region: 'north',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'north',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'east',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'east',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'east',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'south',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'south',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
+  },
+  {
+    name: '',
+    region: 'south',
+    difficulty: '',
+    elevation: 0,
+    quality: 0,
+    distance: 0,
+    imgUrl: '',
+    mapUrl: '',
+    description: ''
   }
 ];
 
