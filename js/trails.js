@@ -253,6 +253,19 @@ function selectRegion() {
   return result;
 }
 
+function selectRegions() {
+  if (selectionCriteria.region === 'no_preference') {
+    return trails;
+  }
+  var result = [];
+  for (var i = 0; i < trails.length; i++) {
+    if (selectionCriteria.region === trails[i].region) {
+      result.push(trails[i]);
+    }
+  }
+  return result;
+}
+
 function selectTrail(trailList) {
   for (var i = 0; i < trailList.length; i++) {
     if (selectionCriteria.difficulty === trailList[i].difficulty) {
@@ -260,6 +273,22 @@ function selectTrail(trailList) {
     }
   }
 }
+
+function selectTrails(trailList) {
+  var concordanceArray = [];
+  //get array of concordance values
+  for (var i = 0; i < trailList.length; i++) {
+    var comparison = 0;
+    comparison += Math.abs(trailList[i].distance - selectionCriteria.distance);
+    comparison += Math.abs(trailList[i].elevation - selectionCriteria.elevation);
+    comparison += Math.abs(trailList[i].quality - selectionCriteria.quality);
+    concordanceArray.push(comparison);
+  }
+  var bestConcordanceValue = Math.min(concordanceArray);
+  var bestTrailIndex = trailList.indexOf(bestConcordanceValue);
+  return trailList[bestTrailIndex];
+}
+
 
 function renderTrail(trail) {
 
