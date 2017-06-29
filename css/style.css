@@ -61,6 +61,7 @@ background-size: cover;
 
 .h3T {
   color: #660000;
+
 }
 
 .gray1 {
@@ -256,5 +257,10 @@ a > img:hover {
   background-color: #ffffff;
   float: left;
   align-items: left;
-  margin-left: 1;
+  margin-left: 0;
+  /*display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;*/
+  /*text-align: center;*/
 }

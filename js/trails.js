@@ -15,8 +15,8 @@ var distanceDiv = document.getElementById('distance');
 var trails = [
   {
     name: 'Seward Park',
-    region: 'south',
-    difficulty: 'easy',
+    region: 'South',
+    difficulty: 'Easy',
     elevation: 2,
     quality: 2,
     distance: 2,
@@ -26,8 +26,8 @@ var trails = [
   },
   {
     name: 'Mud Mountain Lake and White River Trail',
-    region: 'south',
-    difficulty: 'hard',
+    region: 'South',
+    difficulty: 'Hard',
     elevation: 4,
     quality: 4,
     distance: 4,
@@ -37,8 +37,8 @@ var trails = [
   },
   {
     name: 'Lincoln Park',
-    region: 'west',
-    difficulty: 'easy',
+    region: 'West',
+    difficulty: 'Easy',
     elevation: 2,
     quality: 1,
     distance: 2,
@@ -49,8 +49,8 @@ var trails = [
   },
   {
     name: 'Gazzam Lake Nature Preserve',
-    region: 'west',
-    difficulty: 'hard',
+    region: 'West',
+    difficulty: 'Hard',
     elevation: 5,
     quality: 3,
     distance: 5,
@@ -61,8 +61,8 @@ var trails = [
   },
   {
     name: 'Carkeek Park',
-    region: 'north',
-    difficulty: 'easy',
+    region: 'North',
+    difficulty: 'Easy',
     elevation: 2,
     quality: 1,
     distance: 2,
@@ -72,8 +72,8 @@ var trails = [
   },
   {
     name: 'Mt. Pilchuk',
-    region: 'north',
-    difficulty: 'hard',
+    region: 'North',
+    difficulty: 'Hard',
     elevation: 2,
     quality: 1,
     distance: 2,
@@ -83,8 +83,8 @@ var trails = [
   },
   {
     name: 'Franklin Falls',
-    region: 'east',
-    difficulty: 'easy',
+    region: 'East',
+    difficulty: 'Easy',
     elevation: 2,
     quality: 2,
     distance: 2,
@@ -94,8 +94,8 @@ var trails = [
   },
   {
     name: 'Mount Si',
-    region: 'east',
-    difficulty: 'hard',
+    region: 'East',
+    difficulty: 'Hard',
     elevation: 5,
     quality: 3,
     distance: 5,
@@ -105,7 +105,7 @@ var trails = [
   },
   {
     name: 'Schmitz Preserve Park',
-    region: 'west',
+    region: 'West',
     difficulty: '',
     elevation: 2,
     quality: 2,
@@ -116,7 +116,7 @@ var trails = [
   },
   {
     name: 'Blake Island State Park',
-    region: 'west',
+    region: 'West',
     difficulty: '',
     elevation: 2,
     quality: 4,
@@ -127,7 +127,7 @@ var trails = [
   },
   {
     name: 'Green Mountain - Gold Creek Trail',
-    region: 'west',
+    region: 'West',
     difficulty: '',
     elevation: 3,
     quality: 2,
@@ -138,7 +138,7 @@ var trails = [
   },
   {
     name: 'Skagit Wildlife Area',
-    region: 'north',
+    region: 'North',
     difficulty: '',
     elevation: 1,
     quality: 2,
@@ -149,7 +149,7 @@ var trails = [
   },
   {
     name: 'Lake Whatcom Trail',
-    region: 'north',
+    region: 'North',
     difficulty: '',
     elevation: 1,
     quality: 2,
@@ -160,7 +160,7 @@ var trails = [
   },
   {
     name: 'Beaver Pond Trail',
-    region: 'north',
+    region: 'North',
     difficulty: '',
     elevation: 2,
     quality: 3,
@@ -171,7 +171,7 @@ var trails = [
   },
   {
     name: 'Bandera Mountain',
-    region: 'east',
+    region: 'East',
     difficulty: '',
     elevation: 4,
     quality: 2,
@@ -182,7 +182,7 @@ var trails = [
   },
   {
     name: 'Rattlesnake Mountain',
-    region: 'east',
+    region: 'East',
     difficulty: '',
     elevation: 3,
     quality: 2,
@@ -193,7 +193,7 @@ var trails = [
   },
   {
     name: 'Boulder Cave',
-    region: 'east',
+    region: 'East',
     difficulty: '',
     elevation: 1,
     quality: 4,
@@ -204,7 +204,7 @@ var trails = [
   },
   {
     name: 'Carbon River',
-    region: 'south',
+    region: 'South',
     difficulty: '',
     elevation: 3,
     quality: 5,
@@ -215,7 +215,7 @@ var trails = [
   },
   {
     name: 'Nisqually National Wildlife Area',
-    region: 'south',
+    region: 'South',
     difficulty: '',
     elevation: 1,
     quality: 5,
@@ -226,7 +226,7 @@ var trails = [
   },
   {
     name: 'South Coldwater Trail',
-    region: 'south',
+    region: 'South',
     difficulty: '',
     elevation: 3,
     quality: 3,
