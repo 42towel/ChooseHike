@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  color: #79530a;
+  /*color: #79530a;*/
 }
 
 .background {
@@ -13,6 +13,9 @@
   height: 100%;
 }
 
+#trailsBackground {
+  background-image: url(id="img");
+}
 #homeBackground {
   background-image: url("../images/backgrounds/hoh2.jpg");
 }
@@ -30,6 +33,7 @@
 
 .brown1 {
   background-color: #79530a;
+  color: #e57e00;
 }
 
 .brown2 {
@@ -68,6 +72,7 @@ h1 {
   font-size: 48px;
   text-shadow: 2px 2px 2px #4a3305;
   font-variant: small-caps;
+  /*color: #e57e00;*/
 }
 
 h2 {

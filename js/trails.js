@@ -156,6 +156,11 @@ function renderTrail(trail) {
   imgEl.setAttribute('src', trail.imgUrl);
   imgDiv.appendChild(imgEl);
 
+  var imgBG = document.querySelector('img');
+  // imgBG.style.background-i = 'img';
+//   var myElement = document.querySelector("#superman");
+// myElement.style.backgroundColor = "#D93600";
+
   if (trail.name === 'Gazzam Lake Nature Preserve') {
     var citeEl = document.createElement('a');
     citeEl.setAttribute('href', trail.citeUrl);
