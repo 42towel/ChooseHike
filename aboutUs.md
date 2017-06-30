@@ -9,7 +9,8 @@ Smitty Buckler
 ---
 
 James Woodson
-
+* JamesCW_2001@hotmail.com
+* Repos @ github.com/RecursiveIteration
 ---
 
 Drew Biehle
