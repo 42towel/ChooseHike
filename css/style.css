@@ -1,7 +1,7 @@
 * {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
   color: #79530a;
-
 }
 
 .background {
@@ -78,9 +78,6 @@ label {
 /****************************
   fonts
 *****************************/
-* {
-  font-family: 'Montserrat', sans-serif;
-}
 
 h1 {
   font-family: 'Spectral', serif;
@@ -88,6 +85,8 @@ h1 {
   text-shadow: 2px 2px 2px #4a3305;
   font-variant: small-caps;
   color: #e57e00;
+  text-align: center;
+  padding: 30px 0px;
 }
 
 h2 {
@@ -100,6 +99,7 @@ h2 {
 h3 {
   font-family: 'Spectral', serif;
   font-size: 24px;
+  display: inline;
 }
 
 .feature {
@@ -117,6 +117,20 @@ a:hover {
   color: black
 }
 
+#journal div p {
+  font-family: 'Spectral', serif;
+  margin: 25px 25px;
+}
+
+footer a {
+  color: #fcfcf9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer p {
+  color: #fcfcf9;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 
 /***********************************
@@ -130,10 +144,6 @@ li {
   margin: 5px 0px;
 }
 
-h1 {
-  text-align: center;
-  padding: 30px 0px;
-}
 
 fieldset {
   align-content: center;
@@ -153,17 +163,6 @@ form {
 
 p {
   padding: 10px;
-}
-
-.regionbuttons {
-  margin-top: 5px;
-  margin-left: 10px;
-}
-
-.numboxes {
-  text-align: center;
-  width: 30px;
-  margin: 5px 0px;
 }
 
 a {
@@ -187,6 +186,17 @@ button:hover {
 form textarea {
   width: 93%;
   resize: none;
+}
+
+.regionbuttons {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.numboxes {
+  text-align: center;
+  width: 30px;
+  margin: 5px 0px;
 }
 
 .input {
@@ -221,6 +231,12 @@ form textarea {
   margin: 25px;
 }
 
+#journal div hr {
+  clear: both;
+  margin: 3px;
+  border-color: #687909;
+}
+
 .title {
   float: left;
   display: inline;
@@ -233,25 +249,15 @@ form textarea {
   margin-right: 25px;
 }
 
-#journal div hr {
-  clear: both;
-  margin: 3px;
-  border-color: #687909;
+#secondLink {
+  margin-left: 75px;
 }
 
-#journal div p {
-  font-family: 'Spectral', serif;
-  margin: 25px 25px;
-}
-
-footer a {
-  color: #fcfcf9;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-footer p {
-  color: #fcfcf9;
-  font-family: 'Josefin Sans', sans-serif;
+#section1trails {
+  float: left;
+  width: 30%;
+  margin: 20px;
+  box-sizing: border-box;
 }
 
 a > img {
@@ -266,22 +272,7 @@ a > img:hover {
   opacity: 0.7;
 }
 
-#secondLink {
-  margin-left: 75px;
-}
-
-#section1trails {
-  float: left;
-  width: 30%;
-  margin: 20px;
-  box-sizing: border-box;
-}
-
 img {
   width: 60%;
   box-sizing: border-box;
-}
-
-h3 {
-  display: inline;
 }
