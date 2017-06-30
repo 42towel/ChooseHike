@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding-top: 30px;
+}
+
+img {
+  margin-left: 50px;
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: auto;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+article {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
